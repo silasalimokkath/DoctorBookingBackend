@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 style="text-align: center">APPOINTMENT DETAILS</h1>
+    <div style="width: fit-content; margin: 50px auto" class="details">
+      <p style="font-size: 25px">Name : <%=appointment.user.name%></p>
+      <p style="font-size: 20px">Doctor : <%=appointment.doctor.name%></p>
+      <p style="font-size: 20px">Slot : <%= appointment.slot.time%></p>
+      <p style="font-size: 20px">Status : <%=appointment.status%></p>
+    </div>
+  </body>
+</html>
