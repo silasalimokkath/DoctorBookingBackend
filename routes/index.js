@@ -23,3 +23,4 @@ router.use('/medicine', medicineRoutes);
 router.use('/order', orderRoutes);
 
 export default router;
+console.log('hello');
